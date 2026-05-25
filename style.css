@@ -20,32 +20,28 @@ body{
   background:#fff;
   padding:15px 30px;
   box-shadow:0 2px 15px rgba(0,0,0,.08);
+  border-bottom:1px solid #e2e8f0;
 }
 
 .brand{
   display:flex;
   align-items:center;
-  gap:15px;
+  gap:12px;
 }
 
 .logo{
-  width:80px;
-  height:auto;
+  width:55px;
+  height:55px;
+  object-fit:contain;
   display:block;
-}
-
-.header-text h1{
   margin:0;
-  color:#0A66FF;
-  font-size:42px;
-  font-weight:800;
-  line-height:1;
 }
 
-.header-text p{
-  margin-top:5px;
-  color:#64748b;
-  font-size:15px;
+.brand-name{
+  font-size:34px;
+  font-weight:700;
+  color:#0A66FF;
+  line-height:1;
 }
 
 /* NAVBAR */
@@ -182,7 +178,7 @@ img{
   margin-top:20px;
 }
 
-/* GALLERY CARDS */
+/* GALLERY */
 
 .gallery-grid{
   display:grid;
@@ -274,15 +270,12 @@ footer{
   }
 
   .logo{
-    width:60px;
+    width:42px;
+    height:42px;
   }
 
-  .header-text h1{
-    font-size:24px;
-  }
-
-  .header-text p{
-    font-size:12px;
+  .brand-name{
+    font-size:22px;
   }
 
   nav{
