@@ -18,23 +18,25 @@ body{
 
 .top-header{
   background:#fff;
-  padding:15px 30px;
-  box-shadow:0 2px 15px rgba(0,0,0,.08);
-  border-bottom:1px solid #e2e8f0;
+  padding:12px 25px;
+  border-bottom:1px solid #e5e7eb;
+  box-shadow:0 2px 10px rgba(0,0,0,.05);
 }
 
 .brand{
   display:flex;
   align-items:center;
+  justify-content:flex-start;
   gap:12px;
 }
 
 .logo{
-  width:55px;
-  height:55px;
+  width:50px;
+  height:50px;
   object-fit:contain;
-  display:block;
   margin:0;
+  padding:0;
+  border-radius:0;
 }
 
 .brand-name{
@@ -51,7 +53,7 @@ nav{
   display:flex;
   justify-content:center;
   gap:30px;
-  padding:15px;
+  padding:18px;
   border-bottom:1px solid #e2e8f0;
 }
 
@@ -80,8 +82,8 @@ nav a:hover{
 
   background:
   linear-gradient(
-    rgba(10,102,255,.70),
-    rgba(10,102,255,.70)
+      rgba(10,102,255,.70),
+      rgba(10,102,255,.70)
   ),
   url("AC%20GAs%20check%20image.jpeg");
 
@@ -91,7 +93,7 @@ nav a:hover{
 }
 
 .hero h1{
-  font-size:60px;
+  font-size:58px;
   font-weight:800;
   max-width:900px;
   margin-bottom:20px;
@@ -170,14 +172,6 @@ section{
   font-weight:700;
 }
 
-/* IMAGES */
-
-img{
-  width:100%;
-  border-radius:15px;
-  margin-top:20px;
-}
-
 /* GALLERY */
 
 .gallery-grid{
@@ -219,6 +213,14 @@ img{
 .gallery-info p{
   font-weight:700;
   color:#111827;
+}
+
+/* GENERAL IMAGES */
+
+img{
+  width:100%;
+  border-radius:15px;
+  margin-top:20px;
 }
 
 /* CONTACT */
@@ -266,7 +268,7 @@ footer{
 @media(max-width:768px){
 
   .top-header{
-    padding:15px;
+    padding:12px 15px;
   }
 
   .logo{
@@ -275,7 +277,7 @@ footer{
   }
 
   .brand-name{
-    font-size:22px;
+    font-size:24px;
   }
 
   nav{
