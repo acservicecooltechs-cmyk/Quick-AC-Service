@@ -25,10 +25,11 @@ body{
 
 .brand{
     display:flex;
+    justify-content:center;
     align-items:center;
     gap:15px;
+    width:100%;
 }
-
 .logo{
     width:65px;
     height:65px;
