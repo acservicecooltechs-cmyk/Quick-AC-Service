@@ -14,20 +14,28 @@ body{
   line-height:1.6;
 }
 
-header{
+.top-header{
   background:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
   padding:20px;
-  text-align:center;
-  box-shadow:0 2px 10px rgba(0,0,0,.05);
+  box-shadow:0 2px 15px rgba(0,0,0,.08);
 }
 
-header h1{
-  color:#2563eb;
-  font-size:38px;
-  font-weight:700;
+.logo{
+  width:160px;
+  height:auto;
 }
 
-header p{
+.header-text h1{
+  color:#0A66FF;
+  font-size:42px;
+  margin:0;
+}
+
+.header-text p{
   color:#64748b;
 }
 
@@ -58,7 +66,7 @@ nav a:hover{
   align-items:center;
   text-align:center;
   padding:60px 20px;
-  background:linear-gradient(135deg,#2563eb,#60a5fa);
+  background:linear-gradient(135deg,#0A66FF,#3B82F6);
   color:#fff;
 }
 
@@ -77,10 +85,15 @@ nav a:hover{
   margin:10px;
   padding:15px 30px;
   background:#fff;
-  color:#2563eb;
+  color:#0A66FF;
   text-decoration:none;
   border-radius:12px;
   font-weight:600;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
 }
 
 section{
@@ -97,7 +110,7 @@ section{
 }
 
 .card h2{
-  color:#2563eb;
+  color:#0A66FF;
   margin-bottom:15px;
 }
 
@@ -114,10 +127,16 @@ section{
   padding:25px;
   border-radius:16px;
   text-align:center;
+  transition:.3s;
+}
+
+.service-box:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
 .price{
-  color:#2563eb;
+  color:#0A66FF;
   font-weight:700;
 }
 
@@ -148,9 +167,24 @@ footer{
   align-items:center;
   text-decoration:none;
   font-size:28px;
+  box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
 
 @media(max-width:768px){
+
+  .top-header{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .logo{
+    width:120px;
+  }
+
+  .header-text h1{
+    font-size:30px;
+  }
+
   .hero h1{
     font-size:38px;
   }
