@@ -108,6 +108,7 @@ nav a:hover{
 }
 
 .hero div{
+    width:100%;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -121,22 +122,25 @@ nav a:hover{
     align-items:center;
     gap:10px;
 
-    margin:10px auto;
-    padding:15px 35px;
+    width:100%;
+    max-width:280px;
+
+    margin:12px auto;
+    padding:16px 20px;
 
     background:#fff;
     color:#0A66FF;
     text-decoration:none;
     border-radius:12px;
     font-weight:700;
-    transition:.3s;
+    text-align:center;
 
-    width:fit-content;
+    transition:.3s;
 }
+
 .btn:hover{
     transform:translateY(-3px);
 }
-
 /* SECTIONS */
 
 section{
@@ -332,10 +336,10 @@ footer{
     }
 
     .btn{
-        width:90%;
-        max-width:320px;
+        width:100%;
+        max-width:280px;
         margin:12px auto;
-    }        
+    }       
 
     section{
         padding:40px 12px;
