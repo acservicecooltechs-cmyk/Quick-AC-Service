@@ -270,48 +270,105 @@ footer{
     z-index:999;
 }
 
-/* MOBILE */
-
 @media(max-width:768px){
 
     .top-header{
-        padding:15px;
+        padding:15px 10px;
+    }
+
+    .brand{
+        flex-direction:row;
+        justify-content:center;
+        gap:10px;
     }
 
     .logo{
-        width:50px;
-        height:50px;
+        width:55px;
+        height:55px;
     }
 
     .brand-name{
-        font-size:28px;
+        font-size:24px;
+        line-height:1.1;
+        text-align:left;
     }
 
     nav{
         flex-wrap:wrap;
-        gap:15px;
+        gap:20px;
+        padding:15px;
+    }
+
+    nav a{
+        font-size:16px;
+    }
+
+    .hero{
+        min-height:500px;
+        padding:40px 15px;
+        background-position:center center;
     }
 
     .hero h1{
-        font-size:42px;
+        font-size:34px;
+        line-height:1.2;
     }
 
     .hero p{
         font-size:18px;
+        line-height:1.5;
     }
 
     .btn{
-        width:100%;
+        width:90%;
         max-width:320px;
+        display:block;
+        margin:10px auto;
+    }
+
+    section{
+        padding:40px 12px;
     }
 
     .card{
+        padding:25px 15px;
+        border-radius:16px;
+    }
+
+    .card h2{
+        font-size:32px;
+    }
+
+    .services-list{
+        grid-template-columns:1fr;
+    }
+
+    .service-box{
         padding:20px;
     }
 
-    .about img{
-        max-width:100%;
-        height:180px;
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-item img{
+        height:220px;
+    }
+
+    .about-img{
+        width:100%;
+        max-width:320px;
+        height:220px;
+        object-fit:cover;
+        object-position:center;
+        display:block;
+        margin:20px auto;
+        border-radius:12px;
+    }
+
+    .floating-whatsapp{
+        width:60px;
+        height:60px;
+        font-size:28px;
     }
 }
-```
