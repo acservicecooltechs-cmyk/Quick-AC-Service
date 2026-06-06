@@ -143,12 +143,13 @@ nav a:hover{
 }
 
 .location-btn{
-    background:#25d366;
+    background:#0A66FF;
     color:#fff;
+    border:none;
 }
 
 .location-btn:hover{
-    background:#20ba5a;
+    background:#0056d6;
 }
 
 .btn i{
