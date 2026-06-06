@@ -147,6 +147,9 @@ nav a:hover{
     color:#fff;
 }
 
+.location-btn:hover{
+    background:#20ba5a;
+}
 /* SECTIONS */
 
 section{
