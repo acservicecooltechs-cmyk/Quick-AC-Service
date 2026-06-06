@@ -320,13 +320,13 @@ footer{
     }
 
     .hero{
-        min-height:500px;
+        min-height:650px;
         padding:40px 15px;
         background-position:center center;
     }
 
     .hero h1{
-        font-size:34px;
+        font-size:28px;
         line-height:1.2;
     }
 
@@ -336,11 +336,16 @@ footer{
     }
 
     .btn{
-        width:100%;
+        width:85%;
         max-width:280px;
         margin:12px auto;
-    }       
-
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:10px;
+        text-align:center;
+    }
+    
     section{
         padding:40px 12px;
     }
