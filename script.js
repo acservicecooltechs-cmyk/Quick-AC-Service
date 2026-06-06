@@ -148,3 +148,43 @@ backTop.addEventListener("click", () => {
 });
 
 console.log("Enhanced Quick AC Services Website Loaded");
+
+// SHARE LOCATION TO WHATSAPP
+
+function sendLocation() {
+
+  if (navigator.geolocation) {
+
+    navigator.geolocation.getCurrentPosition(
+
+      function(position) {
+
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+
+        const mapsLink =
+          "https://www.google.com/maps?q=" + lat + "," + lng;
+
+        const message =
+          "Hello Quick AC Services, I need AC service. My location is: " +
+          mapsLink;
+
+        const whatsappURL =
+          "https://wa.me/919986562113?text=" +
+          encodeURIComponent(message);
+
+        window.open(whatsappURL, "_blank");
+      },
+
+      function(error) {
+        alert("Please allow location access to share your location.");
+      }
+
+    );
+
+  } else {
+
+    alert("Geolocation is not supported by this browser.");
+
+  }
+}
