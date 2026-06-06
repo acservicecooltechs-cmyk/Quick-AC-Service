@@ -125,7 +125,7 @@ nav a:hover{
     width:100%;
     max-width:280px;
 
-    margin:12px auto;
+    margin:14px auto;
     padding:16px 20px;
 
     background:#fff;
@@ -141,6 +141,12 @@ nav a:hover{
 .btn:hover{
     transform:translateY(-3px);
 }
+
+.location-btn{
+    background:#25d366;
+    color:#fff;
+}
+
 /* SECTIONS */
 
 section{
