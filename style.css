@@ -150,6 +150,24 @@ nav a:hover{
 .location-btn:hover{
     background:#20ba5a;
 }
+
+.btn i{
+    margin-right:10px;
+    font-size:18px;
+}
+
+.fa-phone{
+    color:#0A66FF;
+}
+
+.fa-whatsapp{
+    color:#25d366;
+}
+
+.fa-location-dot{
+    color:#ffffff;
+}
+
 /* SECTIONS */
 
 section{
