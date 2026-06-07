@@ -442,3 +442,24 @@ footer{
         font-size:28px;
     }
 }
+/* PREMIUM SERVICE CARDS */
+
+.service-check{
+    background-image:url('gas-checking.jpg');
+}
+
+.service-repair{
+    background-image:url('ac-service.jpg');
+}
+
+.service-cleaning{
+    background-image:url('jet-cleaning.jpg');
+}
+
+.service-installation{
+    background-image:url('installation.jpg');
+}
+
+.service-gas{
+    background-image:url('gas-filling.jpg');
+}
