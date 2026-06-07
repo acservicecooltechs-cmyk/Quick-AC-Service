@@ -320,7 +320,7 @@ section{
     text-align:center;
 }
 
-.contact a{
+.contact-box a{
     color:#0A66FF;
     text-decoration:none;
 }
@@ -587,13 +587,24 @@ footer{
 .premium-btn{
     display:inline-block;
     background:#0A66FF;
-    color:#fff;
+    color:#fff !important;
+    text-decoration:none;
     padding:18px 40px;
     border-radius:50px;
-    text-decoration:none;
+    font-size:18px;
     font-weight:700;
     margin-top:20px;
     box-shadow:0 10px 25px rgba(10,102,255,.3);
+    transition:.3s;
+}
+
+.premium-btn:hover{
+    background:#0056d6;
+    color:#fff !important;
+}
+
+.premium-btn:visited{
+    color:#fff !important;
 }
 
 .premium-btn:hover{
