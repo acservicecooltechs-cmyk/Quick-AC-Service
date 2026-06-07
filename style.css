@@ -218,7 +218,7 @@ section{
 }
 
 .service-box{
-    height:400px;
+    height:320px;
     border-radius:22px;
     overflow:hidden;
     position:relative;
@@ -458,6 +458,9 @@ footer{
     }
 }
 /* PREMIUM SERVICE CARDS */
+.service-box{
+    height:260px;
+}
 
 .service-check{
     background-image:url('gas-checking.jpg');
@@ -484,13 +487,15 @@ footer{
 }
 
 .service-badge{
+    display:inline-block;
     background:#0A66FF;
     color:#fff;
-    padding:10px 22px;
+    padding:12px 28px;
     border-radius:999px;
     font-size:14px;
     font-weight:700;
     letter-spacing:1px;
+    white-space:nowrap;
 }
 
 .service-title{
@@ -498,6 +503,7 @@ footer{
     font-weight:800;
     color:#0f172a;
     margin-top:25px;
+    line-height:1.2;
 }
 
 .service-subtitle{
@@ -505,4 +511,16 @@ footer{
     margin:20px auto;
     font-size:22px;
     color:#64748b;
+}
+.service-title{
+    font-size:28px;
+}
+
+.service-subtitle{
+    font-size:18px;
+}
+
+.service-badge{
+    font-size:12px;
+    padding:10px 18px;
 }
