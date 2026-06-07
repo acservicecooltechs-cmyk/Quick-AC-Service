@@ -218,7 +218,7 @@ section{
 }
 
 .service-box{
-    height:320px;
+    height:220px;
     border-radius:22px;
     overflow:hidden;
     position:relative;
@@ -232,6 +232,9 @@ section{
 
     background-size:cover;
     background-position:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
     transition:.4s ease;
 }
 
@@ -292,7 +295,7 @@ section{
 
 .gallery-item img{
     width:100%;
-    height:220px;
+    height:180px;
     object-fit:cover;
     margin:0;
 }
@@ -420,8 +423,9 @@ footer{
         border-radius:16px;
     }
 
-    .card h2{
-        font-size:32px;
+     .card h2{
+        font-size:26px;
+        line-height:1.3;
     }
 
     .services-list{
@@ -437,7 +441,7 @@ footer{
     }
 
     .gallery-item img{
-        height:220px;
+        height:180px;
     }
 
     .about-img{
@@ -456,71 +460,92 @@ footer{
         height:60px;
         font-size:28px;
     }
-}
-/* PREMIUM SERVICE CARDS */
-.service-box{
-    height:260px;
-}
+    
+    .service-box{
+        height:140px;
+        padding:10px;
+    }
+        
+    .service-box h3{
+        font-size:18px;
+        line-height:1.2;
+    }
+    
+    .service-box .price{
+        font-size:16px;
+    }
+    
+    .service-title{
+        font-size:28px;
+    }
+    
+    .service-subtitle{
+        font-size:18px;
+    }
+    
+    .service-badge{
+        font-size:12px;
+        padding:10px 18px;
+    }
+    
+    } /* END MOBILE MEDIA QUERY */
 
-.service-check{
-    background-image:url('gas-checking.jpg');
-}
+        .service-check{
+            background-image:url('gas-checking.jpg');
+        }
+        
+        .service-repair{
+            background-image:url('ac-service.jpg');
+        }
+        
+        .service-cleaning{
+            background-image:url('jet-cleaning.jpg');
+        }
+        
+        .service-installation{
+            background-image:url('installation.jpg');
+        }
+        
+        .service-gas{
+            background-image:url('gas-filling.jpg');
+        }
 
-.service-repair{
-    background-image:url('ac-service.jpg');
-}
+    .service-heading{
+        text-align:center;
+        margin-bottom:40px;
+    }
+    
+    .service-badge{
+        display:inline-block;
+        background:#0A66FF;
+        color:#fff;
+        padding:12px 28px;
+        border-radius:999px;
+        font-size:14px;
+        font-weight:700;
+        letter-spacing:1px;
+    }
+    
+    .service-title{
+        font-size:42px;
+        font-weight:800;
+        color:#0f172a;
+        text-align:center;
+        line-height:1.2;
+    }
+    #services .card > p{
+        text-align:center;
+        max-width:700px;
+        margin:0 auto 30px;
+        color:#64748b;
+        font-size:18px;
+    }
+    
+    .service-subtitle{
+        max-width:700px;
+        margin:20px auto;
+        font-size:22px;
+        color:#64748b;
+    }
 
-.service-cleaning{
-    background-image:url('jet-cleaning.jpg');
-}
-
-.service-installation{
-    background-image:url('installation.jpg');
-}
-
-.service-gas{
-    background-image:url('gas-filling.jpg');
-}
-.service-heading{
-    text-align:center;
-    margin-bottom:40px;
-}
-
-.service-badge{
-    display:inline-block;
-    background:#0A66FF;
-    color:#fff;
-    padding:12px 28px;
-    border-radius:999px;
-    font-size:14px;
-    font-weight:700;
-    letter-spacing:1px;
-    white-space:nowrap;
-}
-
-.service-title{
-    font-size:56px;
-    font-weight:800;
-    color:#0f172a;
-    margin-top:25px;
-    line-height:1.2;
-}
-
-.service-subtitle{
-    max-width:700px;
-    margin:20px auto;
-    font-size:22px;
-    color:#64748b;
-}
-.service-title{
-    font-size:28px;
-}
-
-.service-subtitle{
-    font-size:18px;
-}
-
-.service-badge{
-    font-size:12px;
-    padding:10px 18px;
-}
+  
