@@ -547,5 +547,58 @@ footer{
         font-size:22px;
         color:#64748b;
     }
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin:40px 0;
+}
 
+.contact-box{
+    background:#fff;
+    padding:30px 20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.contact-box:hover{
+    transform:translateY(-8px);
+}
+
+.contact-box i{
+    font-size:35px;
+    color:#0A66FF;
+    margin-bottom:15px;
+}
+
+.contact-box h3{
+    margin-bottom:10px;
+    color:#0f172a;
+}
+
+.contact-box a{
+    color:#0A66FF;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.premium-btn{
+    display:inline-block;
+    background:#0A66FF;
+    color:#fff;
+    padding:18px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    margin-top:20px;
+    box-shadow:0 10px 25px rgba(10,102,255,.3);
+}
+
+.premium-btn:hover{
+    transform:translateY(-3px);
+}
   
+
+
