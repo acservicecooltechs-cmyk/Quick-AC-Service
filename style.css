@@ -218,21 +218,43 @@ section{
 }
 
 .service-box{
-    background:#fff;
-    border:1px solid #e2e8f0;
-    padding:25px;
+    height:250px;
     border-radius:18px;
+    overflow:hidden;
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+
+    padding:20px;
     text-align:center;
+
+    background-size:cover;
+    background-position:center;
     transition:.3s;
+}
+
+.service-box::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.service-box h3,
+.service-box .price{
+    position:relative;
+    z-index:1;
+    color:#fff;
 }
 
 .service-box:hover{
     transform:translateY(-5px);
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
 .price{
-    color:#0A66FF;
     font-size:22px;
     font-weight:700;
 }
