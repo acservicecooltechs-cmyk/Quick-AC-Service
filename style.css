@@ -1,4 +1,4 @@
-```css
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
@@ -659,12 +659,12 @@ footer{
         font-size:16px;
     }
 
-    .premium-btn{
-        width:100%;
-        max-width:260px;
-        padding:14px 20px;
-        font-size:16px;
-    }
+.premium-btn{
+    width:100%;
+    max-width:100%;
+    display:block;
+    text-align:center;
+}
 }
 
 .review-slider{
@@ -680,8 +680,8 @@ animation:scrollReviews 25s linear infinite;
 }
 
 .review-card{
-min-width:320px;
-max-width:320px;
+min-width:260px;
+max-width:260px;
 margin:0 15px;
 padding:25px;
 background:#fff;
