@@ -714,3 +714,20 @@ transform:translateX(-50%);
 .review-track:hover{
 animation-play-state:paused;
 }
+#reviews .service-badge{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:fit-content;
+
+    margin:10px auto 45px auto;
+}
+
+#reviews .service-title{
+    margin-bottom:40px;
+}
+
+#reviews .review-slider{
+    margin-top:20px;
+}
