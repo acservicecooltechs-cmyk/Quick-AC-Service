@@ -731,3 +731,11 @@ animation-play-state:paused;
 #reviews .review-slider{
     margin-top:20px;
 }
+#contact .service-badge{
+    display:inline-block;
+    margin-bottom:45px;
+}
+
+#contact .service-title{
+    margin-top:15px;
+}
